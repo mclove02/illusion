@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 300;
+    color: #4d4d4d;
+    font-size: 1em;
+}
+
+H3 {
+      color: #002ca2;
+    letter-spacing: 0.08em;
+    font-weight:200;
+    text-transform: uppercase;
+}
+
+#tagline {
+    padding: 1em;
+}
+
+h1, .orange {
+    color: rgb(93,101,134);
+}
+
+.bg-white {
+/*    background-color: rgba(255,255,255,.8);*/
+/*    padding: 5px;*/
+/*    margin-top: 10%;*/
+    margin-left: 10%;
+    resize:both;
+}
+
+/*
+.bg-img {
+    margin-top: 1em;
+}
+*/
+
+p:hover {
+/*  background-color: gold;*/
+    text-decoration: underline;
+}
+
+.bg-white:hover {
+/*    background-color: rgba(255,255,255,1);*/
+/*    color: red;*/
+/*    outline: rgb(0,0,0) solid 1px; */
+}
+
+#contact-animation {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1000;
+}
