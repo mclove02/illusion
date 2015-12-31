@@ -13,7 +13,7 @@ function setup() {
    
     for(var i=0; i< birdNumber; i++) {
         birds.push(new Bird(random(0, window.innerWidth), random(0,window.innerHeight)));
-         background(0, 0, 0);
+//         background(0, 0, 0);
     }
 }
 
